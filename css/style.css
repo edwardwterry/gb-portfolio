@@ -9,7 +9,14 @@ body {
   }
   
   .text {
-      width: 20%;
+      width: 80%;
       color: black;      
-      font-size: 16pt;
+      font-size: 14pt;
+  }
+  @media (min-width: 40rem) {
+    img {
+      float: right;
+      max-width: 50%;
+      margin: 0 0 1rem 1rem;
+    }
   }
