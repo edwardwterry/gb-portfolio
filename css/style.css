@@ -1,22 +1,23 @@
 body {
-    font-family: 'Sen';
+    font-family: 'Georgia';
     padding: 2vw;
   }
   
   .header {
       font-size: 27pt;
-      color: white;
+      color: black;
   }
   
   .text {
       width: 80%;
       color: black;      
-      font-size: 14pt;
+      font-size: 13pt;
+      text-align: justify;
   }
   @media (min-width: 40rem) {
     img {
       float: right;
-      max-width: 50%;
+      max-width: 30%;
       margin: 0 0 1rem 1rem;
     }
   }
