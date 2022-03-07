@@ -4,16 +4,16 @@ body {
   }
   
   .header {
-      font-size: 27pt;
+      font-size: 18pt;
       color: black;
   }
   
   .text {
       color: black;      
-      font-size: 12pt;
+      font-size: 14pt;
       text-align: justify;
   }
-  @media (min-width: 40rem) {
+  @media (min-width: 30rem) {
     img {
       float: right;
       max-width: 30%;
